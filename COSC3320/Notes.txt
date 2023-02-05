@@ -1,0 +1,16 @@
+First week:
+
+lecture 1:
+Example: Multiplication
+    Use decimal position notation, 123 means (1*100) + (2*10) + (3*1).
+    x = sigma(X[i] * 10^i) which is the sigma notation of the above representation of 123
+    y = sigma(Y[i] * 10^i) for another number
+
+    To get the multiplication of both numbers, use the summation of both number such that
+    z = x*y = sigma((X[i]+Y[i])*10^(i+j) which is the summation of all single digits of each element x and Y
+    
+    Above is considered an algorithm to prove the validity of multiplying two integers
+    An example of another algorithm is PeasantMultiply(x,y), something with halfing x and doubling
+    y. When half of x is odd, add y to product and then this shit is done.
+
+    
